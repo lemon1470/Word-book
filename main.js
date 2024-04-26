@@ -12,7 +12,7 @@ function checkEnterko(event) {
   if (event.keyCode === 13) {
     saveTextko();
     saveText();
-    showsavedtext();
+    showSavedText();
   }
 }
 //이전 내용 삭제
