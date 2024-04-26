@@ -11,6 +11,7 @@ div{
 }
 #word{
   float: left;
+  float:top;
 }
 #mean{
   float: right;
