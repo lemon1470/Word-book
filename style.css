@@ -14,7 +14,7 @@ div{
 }
 #mean{
   float: right;
-  
+  float: top;
 }
 #cup{
   width: 100%;
