@@ -18,7 +18,7 @@ function checkEnterko(event) {
 function del() {
   savedObject.pop();
   savedObjectko.pop();
-  alert("삭제 되었습니다");
+  showSavedText();  
 }
   
 
@@ -62,5 +62,3 @@ function showSavedText() {
       });
     }
 }
-
-
