@@ -58,7 +58,7 @@ function showSavedText() {
       savedTextkoElement.textContent = "저장된 뜻이 없습니다";
     } else {
       savedObjectko.forEach(function(item, index) {
-        savedTextkoElement.innerHTML +=  (index + 1) + ". "+item + "<br>";
+        savedTextkoElement.innerHTML += (index + 1) + "." + item + "<br>";
       });
     }
 }
