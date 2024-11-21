@@ -20,10 +20,41 @@ div{
     background-color:black;
     align-items: stretch;
     grid-template-columns: 7rem 1fr 7rem;
-    grid-template-rows: 7rem 26rem 1fr;
+    grid-template-rows: 7rem 15rem 1fr;
 }
+.littlecon{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 10rem 1fr 11.5rem;
+}
+
 #제목{
     font-size: 3rem;
     margin-top: 0.5rem;
+}
+
+input{
+    height: 3rem;
+    width: 20rem;
+    margin-top: 2rem;
+    
+}
+
+button{
+    height: 2.5rem;
+    position: right;
+    font-size: 1rem;
+}
+
+input{
+    font-size: 2rem;
+}
+a{
+    font-size: 1rem;
+    color: white;
+    text-decoration-line: none;
 }
 
