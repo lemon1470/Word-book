@@ -72,4 +72,3 @@ function toggleTheme() {
         themeSwitcher.innerText = '기본모드';
     }
 }
-
