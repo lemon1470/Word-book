@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>English Words</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Word</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <button id="theme-switcher" onclick="toggleTheme()">기본모드</button>
-
-<div>
-    <p>영단어</p>
-    <input type="text" id="english-word-input" placeholder="영단어를 입력해주세요" onkeydown="handleEnter(event, 'korean')">
-    <br>
-    <p>뜻</p>
-    <input type="text" id="korean-word-input" placeholder="뜻을 입력해주세요" onkeydown="handleEnter(event, 'save')">
-    <br>
-    <button onclick="saveWord()">저장</button>
-    <button onclick="deleteLastWord()">마지막 단어 지우기</button>
-</div>
-
-<h2>저장된 단어</h2>
-<div id="word-list">
-    <!-- 저장된 영단어 여기에 -->
-</div>
-
-<script src="main.js"></script>
+    <div class="container">
+        <div class="item">
+            
+        </div>
+        <div class="item">
+            <p  id="제목">단어장</p>
+        </div>
+        <div class="item">
+            
+        </div>
+        <div class="item">
+    
+        </div>
+        <div class="item">
+            <p>영단어</p>
+            <input type="text" id="english-word-input" placeholder="영단어를 입력해주세요" onkeydown="handleEnter(event, 'korean')">
+            <br>
+            <p>뜻</p>
+            <input type="text" id="korean-word-input" placeholder="뜻을 입력해주세요" onkeydown="handleEnter(event, 'save')">
+            <br>
+            <button onclick="saveWord()">저장</button>
+            <button onclick="deleteLastWord()">마지막 단어 지우기</button>
+        </div>
+        <div class="item">
+            
+        </div>
+        <div class="item">
+            
+        </div>
+        <div id="word-list">
+            <!-- 저장된 영단어 여기에 -->
+        </div>
+        <div class="item">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
