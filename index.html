@@ -16,20 +16,28 @@
             <p  id="제목">단어장</p>
         </div>
         <div class="item">
-            
+            <a href="login-page.html">로그인</a>
+            <a href="">회원가입</a>
         </div>
         <div class="item">
     
         </div>
         <div class="item">
-            <p>영단어</p>
-            <input type="text" id="english-word-input" placeholder="영단어를 입력해주세요" onkeydown="handleEnter(event, 'korean')">
-            <br>
-            <p>뜻</p>
-            <input type="text" id="korean-word-input" placeholder="뜻을 입력해주세요" onkeydown="handleEnter(event, 'save')">
-            <br>
-            <button onclick="saveWord()">저장</button>
-            <button onclick="deleteLastWord()">마지막 단어 지우기</button>
+            <div class="littlecon">   
+                <div>
+                    <p>영단어</p>
+                    <p>뜻</p>    
+                </div>
+
+                <div>
+                    <input type="text" id="english-word-input" placeholder="영단어를 입력해주세요" onkeydown="handleEnter(event, 'korean')">
+                    <input type="text" id="korean-word-input" placeholder="뜻을 입력해주세요" onkeydown="handleEnter(event, 'save')">        
+                </div>
+
+                <div>
+                    <button onclick="deleteLastWord()">마지막 단어 지우기</button>
+                </div>                    
+            </div>
         </div>
         <div class="item">
             
