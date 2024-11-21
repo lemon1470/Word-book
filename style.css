@@ -1,47 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+html{
+    font-size: 1.5vw;
 }
-
-input {
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 200px;
-}
-
-button {
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-#word-list {
-    margin-top: 20px;
-}
-
-.word-item {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-body.dark-mode {
-    background-color: #333;
+body{
+    margin: 0%;
+    background-color: black;
+    font-size: 2rem;
     color: white;
+    position:center;
+    width: 100%;
+    height: 100%;
+}
+div{    
+    background-color: black;
+}
+.container{
+    display: grid;
+    height:100% ;
+    width:100%;
+    background-color:black;
+    align-items: stretch;
+    grid-template-columns: 7rem 1fr 7rem;
+    grid-template-rows: 7rem 26rem 1fr;
+}
+#제목{
+    font-size: 3rem;
+    margin-top: 0.5rem;
 }
 
-input.dark-mode {
-    background-color: #555;
-    color: white;
-    border: 1px solid #888;
-}
-
-.word-item.dark-mode {
-    background-color: #555;
-    border-color: #888;
-}
-
-button.dark-mode {
-    background-color: #555;
-    color: white;
-    border: 1px solid #888;
-}
